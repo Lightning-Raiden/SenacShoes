@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 3vh;
+    color: white;
+    background-color: rgb(52, 134, 206);
+}
+
+#logo {
+    width: 170px;
+    height: 100px;
+    margin-left: 75px;
+}
+
+#title-logo1 {
+    color: rgb(228, 147, 55);
+    margin-top: 3.5vh;
+    margin-left: 29.2vw;
+}
+
+#title-logo2 {
+    margin-top: 3.5vh;
+    margin-left: 5px;
+}
+
+#div-title-img, #div-title-vid, #div-title-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-img, #title-vid, #title-map {
+    font-size: xx-large;
+    margin-top: 5vh;
+    padding: 3vh;
+    background-color: white;
+    border: 2px outset red;
+    border-radius: 10px;
+}
+
+.img, .video {
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img1, .img2 {
+    padding: 55px;
+    background-color: white;
+    border: 5px outset rgb(192, 0, 0);
+    border-radius: 20px;
+}
+
+#section-img, #section-vid, #section-map {
+    margin: 50px;
+    background-color: rgb(90, 105, 117);
+    border: 4px dashed rgb(52, 134, 206);
+}
+
+.mapa {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bord {
+    border: 5px solid rgb(192, 0, 0);
+}
